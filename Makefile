@@ -1,7 +1,7 @@
 
 
 install-dependencies:
-	pdm install --no-lock
+	pdm install --no-lock -v
 
 test:
 	pdm run python -m unittest
